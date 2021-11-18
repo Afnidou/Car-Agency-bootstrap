@@ -1,0 +1,121 @@
+.collapse>button{
+    margin-left: 10px;
+}
+
+
+/* Style PC*/ 
+ @media (min-width : 900px) {
+     .card-tablette{
+         display: none;
+     }
+     .carousel-phone{
+        display: none;
+    }
+    .lastCard{
+        display: none;
+    }
+ }
+
+ /* Style Phone*/
+ @media (max-width : 576px) {
+    .button-phone{
+        display:block ;
+    } 
+    .carousel-pc{
+        display: none;
+    }
+    .card-tablette{
+        display: none;
+    } 
+
+    .equipe{
+        display: none;
+    }
+    .footer-bg{
+        display: none;
+    }
+    .marginCardPhone{
+        margin-top : 10px;
+    }
+}
+
+/* Style Tablette*/
+ @media(max-width : 900px ) and ( min-width : 576px) {
+        .card-pc-phone{
+            display: none;
+        }
+        .carousel-phone{
+            display: none;
+        }
+        .equipe{
+            display: none;
+        }
+        .footer-bg{
+            display: none;
+        }
+ }
+
+ .row{
+     margin-top : 50px;
+ }
+    
+ .carouPcTablette{
+     height: 500px;
+     
+ }
+
+ .carousel-item>img{
+     width: 100%;
+ }
+
+
+
+ .equipe>.card{
+     margin : auto;
+ }
+
+ .bg{
+     background-image: url("images/background.jpeg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(9px);
+ }
+
+ 
+
+ .footer-bg{
+    background-image: url("images/newfooter.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+   
+ }
+ .ul-footer{
+     color: #cccccc;
+     margin: auto;
+     text-decoration: solid;
+     
+ }
+
+ .img-footer{
+     margin-top: 15px;
+     
+ }
+
+ .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.img-tablette{
+    width : 300px;
+    height: 258px;
+}
+
+.img-tablette-footer{
+    width : 296px;
+    height: 258px;
+}
